@@ -15,12 +15,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 100px;
+    width: 40vw;
+    height: 10vh;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    font-size: 2vw;
 }
 
 .background{
@@ -89,5 +90,13 @@ h1{
     background-color: #D21F3C;
 }
 
+
+
+@media (max-width: 500px){
+    .border{
+        font-size: 3vw;
+        text-align: center;
+    }
+}
 
 
